@@ -1,0 +1,18 @@
+{
+  "name": "quotebot",
+  "version": "1.0.0",
+  "description": "discord bot doing quotes",
+  "main": "index.js",
+  "scripts": {
+    "run": "tsc src/main.ts --outDir target/ && node target/main.js"
+  },
+  "author": "Andyson007 & averieyy",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@discordjs/core": "^1.0.1",
+    "discord.js": "^14.13.0"
+  }
+}
